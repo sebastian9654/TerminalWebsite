@@ -32,9 +32,16 @@ function handleFormSubmit(event) {
             displayHelp();
             break;
         default:
-            alert("Invalid command!"); // Notify the user if the entered command is not recognized
+            alert("Invalid command: " + userInput); // Notify the user if the entered command is not recognized
     }
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Adds cursor to the input element when page is loaded
+    const commandInput = document.getElementById('command');
+    commandInput.focus();
+});
+
 
 function isCommand(command) {
     return commands.includes(command);
