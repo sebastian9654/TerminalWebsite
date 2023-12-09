@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded', function() {
     commandInput.focus();
 });
 
-
 function isCommand(command) {
     return commands.includes(command);
 }
