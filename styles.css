@@ -1,0 +1,25 @@
+body {
+    background-color: #1e1c1c; /* Dark background color */
+    color: #4bbc43; /* Light text color */
+    font-family: 'Courier New', monospace; /* Font commonly used in terminals */
+    margin: 20px;
+    font-size: medium;
+}
+
+#command {
+    background-color: #1e1c1c;
+    color: #4bbc43;
+    padding: 7px; /* Example padding */
+    border: 0px;
+    font-size: medium;
+    font-family: 'Courier New', monospace;
+    outline: none;
+}
+
+#commandForm {
+    background-color: #1e1c1c;
+    color: #4bbc43;
+    font-size: medium;
+    font-family: 'Courier New', monospace;
+    border: 0px;
+}
