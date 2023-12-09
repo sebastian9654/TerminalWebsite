@@ -68,7 +68,7 @@ function addToOutput(command) {
     usernameSpan.textContent = "visitor@seb-dev ~ % ";
     usernameSpan.style.color = "rgb(174, 25, 223)"; // Purple color
     usernameSpan.style.fontWeight = "bold"; // Bold font weight
-
+    usernameSpan.style.marginLeft = "0px"
     // Append the username and command input to the output field
     commandText.insertBefore(usernameSpan, commandText.firstChild); // Insert username before command text
     outputField.appendChild(commandText);
@@ -76,9 +76,9 @@ function addToOutput(command) {
     let lineBreak = document.createElement("br"); // Create a line break
     outputField.appendChild(lineBreak);
 
-    // Scroll to the bottom to show the latest command/output
-    outputField.scrollTop = outputField.scrollHeight - outputField.clientHeight;
+    outputField.scrollTop = outputField.scrollHeight; // Scroll to the bottom to show the latest command/output
 }
+
 
 function isCommand(command) {
     return commands.includes(command);

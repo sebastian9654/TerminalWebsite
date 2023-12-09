@@ -72,7 +72,7 @@ function displayAsciiArt() {
 
 function displayLinkedin() {
     const outputField  = document.getElementById("outputField");
-    const linkedIn = "Visit my LinkedIn profile: LinkedIn[https://www.linkedin.com/in/rodriguezseba2001/]";
+    const linkedIn = "Visit my LinkedIn profile: https://www.linkedin.com/in/rodriguezseba2001/";
     const helpElement = createMessageElement(" ");
     outputField.appendChild(helpElement);
     outputField.appendChild(document.createElement("br"));  
@@ -81,7 +81,7 @@ function displayLinkedin() {
 
 function displayGithub() {
     const outputField  = document.getElementById("outputField");
-    const github = "Visit my GitHub profile: [https://github.com/sebastian9654]";
+    const github = "Visit my GitHub profile: https://github.com/sebastian9654";
     const helpElement = createMessageElement(" ");
     outputField.appendChild(helpElement);
     outputField.appendChild(document.createElement("br"));  
@@ -91,7 +91,7 @@ function displayGithub() {
 
 function displayRepo() {
     const outputField  = document.getElementById("outputField");
-    const repo = "View the repository and source code for this project!: [https://github.com/sebastian9654/TerminalWebsite]";
+    const repo = "View the repository and source code for this project!: https://github.com/sebastian9654/TerminalWebsite";
     const helpElement = createMessageElement(" ");
     outputField.appendChild(helpElement);    
     outputField.appendChild(document.createElement("br"));  

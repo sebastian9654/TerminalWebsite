@@ -1,4 +1,4 @@
-function typeText(text, element, speed = 40) {
+function typeText(text, element, speed = 20) {
     let index = 0;
 
     // Speed of typing (milliseconds per character)
@@ -21,4 +21,5 @@ document.addEventListener('DOMContentLoaded', function() {
     const bannerText = banner.innerText.trim();
     banner.innerText = ''; // Clear existing text
     typeText(bannerText, banner, 2);
+    
 });
