@@ -5,31 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sebastian'sss Terminal</title>
+    <title>Sebastian's Terminal</title>
 </head>
 <body>
     <div id="term">
         <h3>Sebastian Rodriguez (SEB-ROD) All Rights not Reserved</h3>
-        <pre id="banner">
-              ********         **                        *******                   
-            **//////         /**                       /**////**     *            
-           /**         ***** /**                       /**    /**  ** **  **    **
-           /********* **/ /**/******        *****      /**    /** **/ /**/**   /**
-           ////////**/*******/**///**      /////       /**    /**/*******//** /** 
-                  /**/**//// /**  /**                  /**    ** /**////  //****  
-            ******** //******/******                   /*******  //******  //**   
-           ////////   ////// /////                     ///////    //////    //    
+        <pre id="banner">   
+            ‎                                                                               
+            ********         **                        *******                                   _________
+          **//////         /**                       /**////**     *                            / ======= \
+         /**         ***** /**                       /**    /**  ** **  **    **               / __________\
+         /********* **/ /**/******        *****      /**    /** **/ /**/**   /**              | ___________ |
+         ////////**/*******/**///**      /////       /**    /**/*******//** /**               | | $ _     | |
+                /**/**//// /**  /**                  /**    ** /**////  //****                | |         | |
+          ******** //******/******                   /*******  //******  //**                 | |_________| |
+         ////////   ////// /////                     ///////    //////    //                  \=____________/   
+                                                                                                                
         </pre>
         
         <h3 id="welcome">Enter a command below, 'commands' for list of commands.</h3>
     </div>
+    <div id="outputField" class="output-field"></div>
     <div id="textField">
         <form id="commandForm">
-            guest@seb-dev ~ % <input autocomplete="off" type="text" name="command" id="command">
+            <span id="username">visitor@seb-dev ~ % </span>
+            <span><input autocomplete="off" type="text" name="command" id="command"></span>
         </form>
     </div>
 
     <script src="script.js"></script>
     <script src="commands.js"></script>
+    <script src="typing.js"></script>
 </body>
 </html>
