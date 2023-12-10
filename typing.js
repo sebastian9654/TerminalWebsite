@@ -20,6 +20,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Typing effect for the banner
     const bannerText = banner.innerText.trim();
     banner.innerText = ''; // Clear existing text
-    typeText(bannerText, banner, 2);
-    
+    typeText(bannerText, banner, 1);
 });
