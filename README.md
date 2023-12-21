@@ -38,7 +38,7 @@ The terminal interface consists of an input field where users can enter commands
 
 ## Contributors
 
-- [Your Name](link-to-your-profile): Project Developer
+- Myself
 
 ## Technologies Used
 
