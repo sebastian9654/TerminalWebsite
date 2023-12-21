@@ -7,7 +7,7 @@ This project is a terminal-like interface designed to execute commands and displ
 The terminal interface consists of an input field where users can enter commands and an output field that displays the results of executed commands. Each command corresponds to a specific function that generates output in the terminal.
 
 ## How to Access
-- Project is currently being hosted on my school's Linux Server. Here is the link: [Go to Website](- https://codd.cs.gsu.edu/~srodriguez35/terminal_site/terminal.html).
+- Project is currently being hosted on my school's Linux Server. Here is the link: [Go to Website](https://codd.cs.gsu.edu/~srodriguez35/terminal_site/terminal.html).
   
 ## Features
 
